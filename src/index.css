@@ -13,4 +13,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  cursor: default;
+}
+
+::selection {
+  background-color: #08c284;
+  color: #fff;
 }
